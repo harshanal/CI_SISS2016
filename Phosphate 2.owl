@@ -1,0 +1,1063 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/m07895/ontologies/2016/3/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/m07895/ontologies/2016/3/untitled-ontology-2">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Acquired_hypophosphataemia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Acromegaly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Acute-on-chronic_renal_failure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Acute-on-chronic_renal_impairment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adefovir"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aluminium_hydroxide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anticancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Antiretroviral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Belatacept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bisphosphonates"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blood_inorganic_phosphate_level"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blood_phosphate-creatinine_ratio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brown_tumour_of_hyperparathyroidism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cabozantinib"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Calcium_acetate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Calcium_acetate_and_magnesium_carbonate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Calcium_and_vitamin_D"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Calcium_carbonate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chemotherapy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chronic_renal_failure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chronic_renal_impairment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chronic_renal_impairment_or_failure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Colestilan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conditions_high"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conditions_low"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crizotinib"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dabrafenib"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Denosumab"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Direct_high"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Direct_low"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ectopic_hyperparathyroidism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enema"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Excessive_dietary_intake_of_phosphorus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Familial_hypophosphataemia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ferrous_phosphate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ferrrous_phosphate_compound_syrup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fleet_Micro-enema"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fleet_Micro-enema_5mL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fleet_Phospho-soda_soln_2x45mL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fleet_Phospho-soda_solution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fleet_enema"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fleet_oral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fletchers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fletchers_Phos_long_tube_enema_128mL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fletchers_Phosphate_long_tube_enema"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fletchers_Phosphate_standard_tube_bottle_enema"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fletchers_Phosphate_standard_tube_enema"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Formula"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fractional_excretion_of_phosphate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Haemolytic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High_phosphate_diet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hyperparathyroidism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hyperphosphataemia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hyperphosphatasaemia_with_bone_disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hypoparathyroidism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hypophosphataemia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iatrogenic_hyperphosphataemia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ibandronic_acid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Idiopathic_hyperphosphataemia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Immunosuppressant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inadequate_dietary_intake_of_phosphorus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indirect_high"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indirect_low"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intravenous_nutrition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Investigation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LP_-_Low_phosphate_diet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lanthanum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leflunomide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low_phosphate_diet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low_phosphorus_diet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Magnesium_carbonate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Magnesium_trisilicate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Malabsorption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Malignancy_associated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medications_high"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medications_low"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Micafungin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Milk_alkali_syndrome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Minerals-phosphate_supplements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neonatal_hyperparathyroidism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nicotinic_acid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nutritional_hypophosphataemia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oral_direct_high"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#P_-_High_phosphate_diet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pamidronate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parenteral_nutrition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phosphate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phosphate-Sandoz_tablet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phosphate_binding_agents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phosphate_compound_16.1mmol_effervescent_tablet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phosphate_enema"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phosphate_salts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phosphates_Formula_A_standard_tube_enema_BP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phosphates_Formula_B_long_tube_enema_BP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phosphates_formula_b_enema_128mL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plasma_inorganic_phosphate_level"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Post_surgical_malabsorption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Primary_hyperparathyroidism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pseudohypoparathyroidism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Radiotherapy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rephoren"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rhabdomyolysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sarcoidosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Secondary_hyperparathyroidism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Serum_inorganic_phosphate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Serum_phosphate_level_abnormal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Serum_phosphate_level_normal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sevelamer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Short_bowel_syndrome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sirolimus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sodium_phosphate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sorafenib"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sucroferric_oxyhydroxide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Temsirolimus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tenofovir"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tertiary_hyperparathyroidism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tumour_lysis_syndrome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Twenty-four_hour_urine_phosphate_output"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Urine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Urine_inorganic_phosphate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Urine_phosphate-creatinine_ratio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Velphoro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vitamin_A"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vitamin_D_deficiency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zoledronic_acid"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#hasCTV3code"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#hasRead2Code"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Acquired_hypophosphataemia"/>
+        <Class IRI="#Conditions_low"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Acromegaly"/>
+        <Class IRI="#Conditions_high"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Acute-on-chronic_renal_failure"/>
+        <Class IRI="#Chronic_renal_impairment_or_failure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Acute-on-chronic_renal_impairment"/>
+        <Class IRI="#Chronic_renal_impairment_or_failure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adefovir"/>
+        <Class IRI="#Antiretroviral"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aluminium_hydroxide"/>
+        <Class IRI="#Phosphate_binding_agents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anticancer"/>
+        <Class IRI="#Indirect_low"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Antiretroviral"/>
+        <Class IRI="#Indirect_low"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Belatacept"/>
+        <Class IRI="#Immunosuppressant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bisphosphonates"/>
+        <Class IRI="#Indirect_low"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blood"/>
+        <Class IRI="#Investigation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blood_inorganic_phosphate_level"/>
+        <Class IRI="#Blood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blood_phosphate-creatinine_ratio"/>
+        <Class IRI="#Blood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brown_tumour_of_hyperparathyroidism"/>
+        <Class IRI="#Hyperparathyroidism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cabozantinib"/>
+        <Class IRI="#Anticancer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Calcium_acetate"/>
+        <Class IRI="#Phosphate_binding_agents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Calcium_acetate_and_magnesium_carbonate"/>
+        <Class IRI="#Phosphate_binding_agents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Calcium_and_vitamin_D"/>
+        <Class IRI="#Indirect_high"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Calcium_carbonate"/>
+        <Class IRI="#Phosphate_binding_agents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chemotherapy"/>
+        <Class IRI="#Malignancy_associated"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chronic_renal_failure"/>
+        <Class IRI="#Chronic_renal_impairment_or_failure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chronic_renal_impairment"/>
+        <Class IRI="#Chronic_renal_impairment_or_failure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chronic_renal_impairment_or_failure"/>
+        <Class IRI="#Conditions_high"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Colestilan"/>
+        <Class IRI="#Phosphate_binding_agents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conditions_high"/>
+        <Class IRI="#Hyperphosphataemia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conditions_low"/>
+        <Class IRI="#Hypophosphataemia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crizotinib"/>
+        <Class IRI="#Anticancer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dabrafenib"/>
+        <Class IRI="#Anticancer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Denosumab"/>
+        <Class IRI="#Indirect_low"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Direct_high"/>
+        <Class IRI="#Medications_high"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Direct_low"/>
+        <Class IRI="#Medications_low"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ectopic_hyperparathyroidism"/>
+        <Class IRI="#Hyperparathyroidism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enema"/>
+        <Class IRI="#Direct_high"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Excessive_dietary_intake_of_phosphorus"/>
+        <Class IRI="#High_phosphate_diet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Familial_hypophosphataemia"/>
+        <Class IRI="#Conditions_low"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ferrous_phosphate"/>
+        <Class IRI="#Minerals-phosphate_supplements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ferrrous_phosphate_compound_syrup"/>
+        <Class IRI="#Ferrous_phosphate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fleet_Micro-enema"/>
+        <Class IRI="#Fleet_enema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fleet_Micro-enema_5mL"/>
+        <Class IRI="#Fleet_enema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fleet_Phospho-soda_soln_2x45mL"/>
+        <Class IRI="#Fleet_oral"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fleet_Phospho-soda_solution"/>
+        <Class IRI="#Fleet_oral"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fleet_enema"/>
+        <Class IRI="#Phosphate_enema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fleet_oral"/>
+        <Class IRI="#Minerals-phosphate_supplements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fletchers"/>
+        <Class IRI="#Phosphate_enema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fletchers_Phos_long_tube_enema_128mL"/>
+        <Class IRI="#Fletchers_Phosphate_long_tube_enema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fletchers_Phosphate_long_tube_enema"/>
+        <Class IRI="#Fletchers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fletchers_Phosphate_standard_tube_bottle_enema"/>
+        <Class IRI="#Fletchers_Phosphate_standard_tube_enema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fletchers_Phosphate_standard_tube_enema"/>
+        <Class IRI="#Fletchers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Formula"/>
+        <Class IRI="#Phosphate_enema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fractional_excretion_of_phosphate"/>
+        <Class IRI="#Urine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Haemolytic"/>
+        <Class IRI="#Conditions_high"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_phosphate_diet"/>
+        <Class IRI="#Oral_direct_high"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hyperparathyroidism"/>
+        <Class IRI="#Conditions_low"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hyperphosphataemia"/>
+        <Class IRI="#Phosphate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hyperphosphatasaemia_with_bone_disease"/>
+        <Class IRI="#Conditions_high"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hypoparathyroidism"/>
+        <Class IRI="#Conditions_high"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hypophosphataemia"/>
+        <Class IRI="#Phosphate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iatrogenic_hyperphosphataemia"/>
+        <Class IRI="#Conditions_high"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ibandronic_acid"/>
+        <Class IRI="#Bisphosphonates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Idiopathic_hyperphosphataemia"/>
+        <Class IRI="#Conditions_high"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Immunosuppressant"/>
+        <Class IRI="#Indirect_low"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inadequate_dietary_intake_of_phosphorus"/>
+        <Class IRI="#Conditions_low"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Indirect_high"/>
+        <Class IRI="#Medications_high"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Indirect_low"/>
+        <Class IRI="#Medications_low"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intravenous_nutrition"/>
+        <Class IRI="#Indirect_low"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Investigation"/>
+        <Class IRI="#Phosphate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LP_-_Low_phosphate_diet"/>
+        <Class IRI="#Low_phosphate_diet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lanthanum"/>
+        <Class IRI="#Phosphate_binding_agents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leflunomide"/>
+        <Class IRI="#Immunosuppressant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low_phosphate_diet"/>
+        <Class IRI="#Conditions_low"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low_phosphorus_diet"/>
+        <Class IRI="#Low_phosphate_diet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Magnesium_carbonate"/>
+        <Class IRI="#Phosphate_binding_agents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Magnesium_trisilicate"/>
+        <Class IRI="#Phosphate_binding_agents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malabsorption"/>
+        <Class IRI="#Conditions_low"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malignancy_associated"/>
+        <Class IRI="#Conditions_high"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medications_high"/>
+        <Class IRI="#Hyperphosphataemia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medications_low"/>
+        <Class IRI="#Hypophosphataemia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Micafungin"/>
+        <Class IRI="#Indirect_low"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Milk_alkali_syndrome"/>
+        <Class IRI="#Conditions_high"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Minerals-phosphate_supplements"/>
+        <Class IRI="#Phosphate_salts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neonatal_hyperparathyroidism"/>
+        <Class IRI="#Hyperparathyroidism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nicotinic_acid"/>
+        <Class IRI="#Indirect_low"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nutritional_hypophosphataemia"/>
+        <Class IRI="#Conditions_low"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oral_direct_high"/>
+        <Class IRI="#Direct_high"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#P_-_High_phosphate_diet"/>
+        <Class IRI="#High_phosphate_diet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pamidronate"/>
+        <Class IRI="#Bisphosphonates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parenteral_nutrition"/>
+        <Class IRI="#Indirect_low"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phosphate-Sandoz_tablet"/>
+        <Class IRI="#Minerals-phosphate_supplements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phosphate_binding_agents"/>
+        <Class IRI="#Direct_low"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phosphate_compound_16.1mmol_effervescent_tablet"/>
+        <Class IRI="#Phosphate-Sandoz_tablet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phosphate_enema"/>
+        <Class IRI="#Enema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phosphate_salts"/>
+        <Class IRI="#Oral_direct_high"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phosphates_Formula_A_standard_tube_enema_BP"/>
+        <Class IRI="#Formula"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phosphates_Formula_B_long_tube_enema_BP"/>
+        <Class IRI="#Formula"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phosphates_formula_b_enema_128mL"/>
+        <Class IRI="#Phosphates_Formula_B_long_tube_enema_BP"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plasma_inorganic_phosphate_level"/>
+        <Class IRI="#Blood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Post_surgical_malabsorption"/>
+        <Class IRI="#Conditions_low"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary_hyperparathyroidism"/>
+        <Class IRI="#Hyperparathyroidism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pseudohypoparathyroidism"/>
+        <Class IRI="#Hypoparathyroidism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radiotherapy"/>
+        <Class IRI="#Malignancy_associated"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rephoren"/>
+        <Class IRI="#Phosphate_binding_agents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rhabdomyolysis"/>
+        <Class IRI="#Conditions_high"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sarcoidosis"/>
+        <Class IRI="#Conditions_high"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Secondary_hyperparathyroidism"/>
+        <Class IRI="#Hyperparathyroidism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Serum_inorganic_phosphate"/>
+        <Class IRI="#Blood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Serum_phosphate_level_abnormal"/>
+        <Class IRI="#Serum_inorganic_phosphate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Serum_phosphate_level_normal"/>
+        <Class IRI="#Serum_inorganic_phosphate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sevelamer"/>
+        <Class IRI="#Phosphate_binding_agents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Short_bowel_syndrome"/>
+        <Class IRI="#Conditions_low"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sirolimus"/>
+        <Class IRI="#Immunosuppressant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sodium_phosphate"/>
+        <Class IRI="#Minerals-phosphate_supplements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sorafenib"/>
+        <Class IRI="#Anticancer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sucroferric_oxyhydroxide"/>
+        <Class IRI="#Phosphate_binding_agents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temsirolimus"/>
+        <Class IRI="#Sirolimus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tenofovir"/>
+        <Class IRI="#Antiretroviral"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tertiary_hyperparathyroidism"/>
+        <Class IRI="#Hyperparathyroidism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tumour_lysis_syndrome"/>
+        <Class IRI="#Malignancy_associated"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Twenty-four_hour_urine_phosphate_output"/>
+        <Class IRI="#Urine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Urine"/>
+        <Class IRI="#Investigation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Urine_inorganic_phosphate"/>
+        <Class IRI="#Urine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Urine_phosphate-creatinine_ratio"/>
+        <Class IRI="#Urine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Velphoro"/>
+        <Class IRI="#Phosphate_binding_agents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vitamin_A"/>
+        <Class IRI="#Indirect_high"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vitamin_D_deficiency"/>
+        <Class IRI="#Conditions_low"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zoledronic_acid"/>
+        <Class IRI="#Bisphosphonates"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blood</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Blood biochemistry tests</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasCTV3code"/>
+        <IRI>#Blood_inorganic_phosphate_level</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">XaDve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasRead2Code"/>
+        <IRI>#Blood_inorganic_phosphate_level</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">44h5.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasRead2Code"/>
+        <IRI>#Blood_phosphate-creatinine_ratio</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">44ln.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Conditions_high</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Medical conditions that promote hyperphosphataemia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Conditions_low</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Medical conditions that promote hypophosphataemia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasRead2Code"/>
+        <IRI>#Fractional_excretion_of_phosphate</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">46MS.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasCTV3code"/>
+        <IRI>#Hyperphosphataemia</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">C3534</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasRead2Code"/>
+        <IRI>#Hyperphosphataemia</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">C3534</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Hyperphosphataemia</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Blood phosphate &gt;1.5 mmol/l</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasCTV3code"/>
+        <IRI>#Hypophosphataemia</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">C3533</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasRead2Code"/>
+        <IRI>#Hypophosphataemia</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">C3533</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Hypophosphataemia</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Blood phosphate &lt;0.75 mmol/l</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Investigation</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Blood phosphate biochemistry measurement (mmol/l)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Medications_high</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Medications that promote hyperphosphataemia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Medications_low</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Medications that promote hypophosphataemia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Phosphate</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">0.75 - 1.5 mmol/l normal range UK</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasRead2Code"/>
+        <IRI>#Phosphate_binding_agents</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">ij...</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasCTV3code"/>
+        <IRI>#Plasma_inorganic_phosphate_level</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">XaItO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasRead2Code"/>
+        <IRI>#Plasma_inorganic_phosphate_level</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">44i2.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasCTV3code"/>
+        <IRI>#Serum_inorganic_phosphate</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">XE2q4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasRead2Code"/>
+        <IRI>#Serum_inorganic_phosphate</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">44I9.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasRead2Code"/>
+        <IRI>#Serum_phosphate_level_abnormal</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">44I91</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasRead2Code"/>
+        <IRI>#Serum_phosphate_level_normal</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">44I90</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasCTV3code"/>
+        <IRI>#Twenty-four_hour_urine_phosphate_output</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">XaETP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasRead2Code"/>
+        <IRI>#Twenty-four_hour_urine_phosphate_output</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">46MG.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Urine</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Urine biochemistry tests</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasCTV3code"/>
+        <IRI>#Urine_inorganic_phosphate</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">XE2qQ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasRead2Code"/>
+        <IRI>#Urine_inorganic_phosphate</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">46M9.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasRead2Code"/>
+        <IRI>#Urine_phosphate-creatinine_ratio</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">46gY.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
